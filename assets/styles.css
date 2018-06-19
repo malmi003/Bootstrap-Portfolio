@@ -1,0 +1,77 @@
+/* Colors
+almond white: rgba(240, 222, 200, 1);
+pastel brown: rgba(115, 103, 88, 1);
+black coral: rgba(84, 95, 111, 1);
+fern green: rgba(97, 114, 67, 1);
+gray-asparagus: rgba(59, 4, 72, 1)9;
+*/
+
+/* ----------------------------- GLOBAL ------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+  }
+body {
+    /* Background Photo by Matthew Smith on Unsplash */
+    
+    color: rgba(84, 95, 111, 1);
+    /* font-family: 'Tajawal', sans-serif; */
+    font-family: 'Quicksand', sans-serif;
+    /* font-family: 'Amatic SC', cursive; */
+    margin-bottom: 100px; /* Margin bottom by footer height */
+
+}
+/* ------------------------- HEADER AND FOOTER---------------------- */
+
+/*................footer................*/
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Set the fixed height of the footer here */
+    line-height: 60px; /* Vertically center the text there */
+  }
+  .footer p {
+    margin-bottom: 0;
+  }
+
+/* ---------------------------------MAIN---------------------------- */
+/*................general................*/
+.jumbotron {
+    background: linear-gradient(0deg,rgba(84, 95, 111, .6),rgba(115, 103, 88, .6)), url("images/background-image-matthew-smith-5935-unsplash.jpg");
+    background-size: cover;
+    color: rgba(240, 222, 200, 1);
+    text-align: center;
+}
+.pageHeader {
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-size: 3rem;
+}
+.bg-primary {
+    background: rgba(84, 95, 111, .8) !important;
+}
+.navbar a {
+    margin-bottom: 3em;
+    color: rgba(240, 222, 200, 1) !important;
+}
+.border-primary {
+    border-width: 1px !important;
+    border-color: #363D47 !important;
+}
+.border-secondary {
+    border-width: 2px !important;
+    border-color: rgba(115, 103, 88, 1) !important;
+}
+/*................portfolio................*/
+/*................about................*/
+/*................contain................*/
+
+
+@media (min-width: 768px) {
+    .jumbotron {
+        padding: 10rem 2rem !important;
+    }
+}
+
