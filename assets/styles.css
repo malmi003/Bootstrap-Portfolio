@@ -16,8 +16,13 @@ body {
     /* font-family: 'Tajawal', sans-serif; */
     font-family: 'Quicksand', sans-serif;
     /* font-family: 'Amatic SC', cursive; */
-    margin-bottom: 100px; /* Margin bottom by footer height */
-
+    margin-bottom: 60px; /* Margin bottom by footer height */
+}
+a {
+    color: rgba(84, 95, 111, 1);
+}
+a:hover {
+    color: #3E4651; /* charcoal */
 }
 /* ------------------------- HEADER AND FOOTER---------------------- */
 /*................header................*/
@@ -86,7 +91,22 @@ body {
     background-color: rgba(59, 94, 72, .9) !important;
     border-color: rgba(59, 94, 72, .9) !important;
 }
+
+.hover-box {
+    
+}
+
 /*................portfolio................*/
+
+.portfolio-body {
+    background: linear-gradient(0deg,rgba(253, 252, 250, .75), rgba(253, 252, 250, .75)), url("https://images.unsplash.com/photo-1494807081385-2193b6e24400?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c88e19c314d7f5495bc3b21b4f0538dd&auto=format&fit=crop&w=500&q=60");
+    color: rgba(240, 222, 200, 1);
+    text-align: center;
+}
+#portfolio-header {
+    color: rgba(84, 95, 111, 1);
+}
+
 /*................about................*/
 /*................contain................*/
 
